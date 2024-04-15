@@ -1,0 +1,17 @@
+$grayColor : gray;
+
+.headerSection {
+    background-color: $grayColor;
+}
+
+.flex-container {
+    display: flex;
+    padding: 0 4px;
+
+    div {
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+}
