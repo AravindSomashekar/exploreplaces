@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+$black-color : #000;
 body {
     margin: 0px;
 }
 
 a {
     cursor: pointer;
+    text-decoration: none;
+    color: $black-color;
 
     &:hover {
-        color: rgb(117, 103, 103) !important;
+        color: rgb(72, 69, 69);
     }
 }
