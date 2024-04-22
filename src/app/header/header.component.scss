@@ -1,4 +1,4 @@
-$grayColor : gray;
+$grayColor : #aaaaaa;
 
 .headerSection {
     background-color: $grayColor;
@@ -6,17 +6,43 @@ $grayColor : gray;
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     padding: 0 4px;
+    align-items: center;
+    align-content: space-between;
 
     div {
-        margin: 10px;
         text-align: center;
-        line-height: 75px;
         font-size: 20px;
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 }
 
 .active {
-    color : white
+    color: white
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.searchBox {
+    line-height: 20px;
+    width: 30%;
+    transition: width 0.4s ease-in-out;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    padding: 12px 20px 12px 40px;
+    background-image: url('../../assets/images/searchicon.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 50px;
+
+    &:focus {
+        width: 50%;
+    }
 }
