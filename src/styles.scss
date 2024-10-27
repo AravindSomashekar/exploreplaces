@@ -1,12 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-$black-color : #000;
-* {
-    text-decoration : none
-}
-body {
-    margin: 0px;
-}
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+$black-color : #000;
 a {
     cursor: pointer;
     text-decoration: none;
