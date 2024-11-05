@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from '../app/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ArticlesComponent } from './articles/articles.component'
+import { ArticlesComponent } from './articles/articles.component';
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from "../app/carousel/carousel.component"
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { ArticlesComponent } from './articles/articles.component'
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MdbCarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
