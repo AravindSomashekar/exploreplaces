@@ -1,20 +1,31 @@
 <div class="headerSection">
-    <div class="flex-container">
-        <div routerLink="" class="pointer-cursor">
-            <img width="180px" height="80px" src="../../assets/images/Banner.png" />
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <div routerLink="" class="pointer-cursor">
+                𝓔𝔁𝓹𝓵𝓸𝓻𝓮 <i class="fas fa-earth-asia"></i> 𝓟𝓵𝓪𝓬𝓮𝓼
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" routerLink="home" routerLinkActive="active">Home</a>
+                    </li>
+                    <div class="vr vr-blurry"></div>
+
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" routerLink="about" routerLinkActive="active">About</a>
+                    </li>
+                    <div class="vr vr-blurry"></div>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" routerLink="articles" routerLinkActive="active">Articles</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div>
-            <a routerLink="home" routerLinkActive="active">Home</a>
-        </div>
-        <div>
-            <a routerLink="about" routerLinkActive="active">About</a>
-        </div>
-        <div>
-            <a routerLink="articles" routerLinkActive="active">Articles</a>
-        </div>
-        <div style="flex: 1;">
-            <input type="text" class="searchBox" placeholder="Search.."/>
-        </div>
-    </div>
+    </nav>
 </div>
 <router-outlet></router-outlet>

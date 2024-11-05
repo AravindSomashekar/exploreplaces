@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
 
 $black-color : #000;
 a {
@@ -9,7 +11,6 @@ a {
 
     &:hover {
         color: rgb(72, 69, 69);
-        font-size: 21px;
-        transition: 0.5s;
+        transition: 0.2s;
     }
 }

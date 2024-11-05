@@ -1,9 +1,5 @@
 $grayColor : #aaaaaa;
 
-.headerSection {
-    background-color: $grayColor;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -24,25 +20,4 @@ $grayColor : #aaaaaa;
 
 .pointer-cursor {
     cursor: pointer;
-}
-
-.searchBox {
-    line-height: 20px;
-    width: 30%;
-    transition: width 0.4s ease-in-out;
-    border-radius: 4px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px;
-    padding: 12px 20px 12px 40px;
-    background-image: url('../../assets/images/searchicon.png');
-    background-repeat: no-repeat;
-    float: left;
-    margin-left: 50px;
-
-    &:focus {
-        width: 50%;
-    }
 }
