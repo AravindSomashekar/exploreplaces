@@ -7,8 +7,6 @@ import { HeaderComponent } from '../app/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ArticlesComponent } from './articles/articles.component';
-import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from "../app/carousel/carousel.component"
 
 @NgModule({
@@ -22,9 +20,7 @@ import { CarouselComponent } from "../app/carousel/carousel.component"
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    MdbCarouselModule,
-    BrowserAnimationsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
